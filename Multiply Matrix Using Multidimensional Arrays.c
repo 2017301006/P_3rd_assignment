@@ -25,11 +25,22 @@ int main()
 
     // Storing elements of first matrix.
     printf("\nEnter elements of matrix 1:\n");
-    // Fill the necessary program here.
+        
+        for (i = 1; i <= r1; i++) {
+            for (j = 1; j <= c1; j++) {
+			    printf("Enter element of the first matrix A, a%d%d", r1, c1);
+			    scanf("%d", &a[i][j]);
+        }
+    }
 
-    // Storing elements of second matrix.
     printf("\nEnter elements of matrix 2:\n");
-    // Fill the necessary program here.
+    
+        for (i = 1; i <= r2; i++) {
+            for (j = 1; j <= c2; j++) {
+			    printf("Enter element of the second matrix A, b%d%d", r2, c2);
+			    scanf("%d", &b[i][j]);
+        }
+    }
 
     // Initializing all elements of result matrix to 0
     // Fill the necessary program here.
