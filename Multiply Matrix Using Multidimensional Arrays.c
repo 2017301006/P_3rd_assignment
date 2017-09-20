@@ -13,8 +13,8 @@ int main()
     printf("Enter rows and column for second matrix: ");
     scanf("%d %d",&r2, &c2);
 
-    // Column of first matrix should be equal to column of second matrix
-    while (c1 != r2)
+    // Two matrices can be multiplied together when the column of first matrix is equal to the column of second matrix.
+    while (c1 != r2) // This means when the number of column(s) of the first matrix is NOT equal to the number of row(s) of the second one.
     {
         printf("Error! column of first matrix not equal to row of second.\n\n");
         printf("Enter rows and column for first matrix: ");
