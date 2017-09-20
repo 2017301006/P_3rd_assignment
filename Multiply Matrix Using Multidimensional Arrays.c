@@ -42,10 +42,16 @@ int main()
         }
     }
 
-    // Initializing all elements of result matrix to 0
-    // Fill the necessary program here.
-
+    // Initialization of result matrix
+        #define RSIZE c2
+	#define CSIZE r1
+	
+	int result[c2][r1];
+	result[c2][r1]=0
+	
+	
     // Multiplying matrices a and b and
+		// To multiply A and B matrices, multiplication formula should be written.
     // storing result in result matrix
     // Fill the necessary program here.
 
