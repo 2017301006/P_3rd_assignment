@@ -17,9 +17,9 @@ int main()
     while (c1 != r2) // This means when the number of column(s) of the first matrix is NOT equal to the number of row(s) of the second one.
     {
         printf("Error! column of first matrix not equal to row of second.\n\n");
-        printf("Enter rows and column for first matrix: ");
+        printf("Enter row(s) and column(s) for first matrix: ");
         scanf("%d %d", &r1, &c1);
-        printf("Enter rows and column for second matrix: ");
+        printf("Enter row(s) and column(s) for second matrix: ");
         scanf("%d %d",&r2, &c2);
     }
 
