@@ -26,21 +26,21 @@ int main()
     // Storing elements of first matrix.
     printf("\nEnter elements of matrix 1:\n");
         
-	int A[i][j];
+	int a[i][j];
         for (i = 1; i <= r1; i++) {
             for (j = 1; j <= c1; j++) {
 			    printf("Enter element of the first matrix A, a%d%d", r1, c1);
-			    scanf("%d", &A[i][j]);
+			    scanf("%d", &a[i][j]);
         }
     }
 
     printf("\nEnter elements of matrix 2:\n");
     
-    	int B[i][j];
+    	int b[i][j];
         for (i = 1; i <= r2; i++) {
             for (j = 1; j <= c2; j++) {
 			    printf("Enter element of the second matrix A, b%d%d", r2, c2);
-			    scanf("%d", &B[i][j]);
+			    scanf("%d", &b[i][j]);
         }
     }
 
@@ -59,7 +59,7 @@ int main()
 		for(j=1; j<=c2; j++) {
 			result[i][j]=0;
 			for(k=0; k<c1; k++) {
-				result[i][j]+=A[i][k]*B[k][j];
+				result[i][j]+=a[i][k]*b[k][j];
 			}
 		}
 	}
