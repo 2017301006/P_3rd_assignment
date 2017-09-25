@@ -52,26 +52,28 @@ int main()
 	result[c2][r1]=0
 	
 	
-    // Multiplying matrices a and b and
-		// To multiply A and B matrices, multiplication formula should be written.
+	// Multiplying matrices a and b and
+	// To multiply A and B matrices, multiplication formula should be written.
 		
-	int C[i][i];
-	int i = 0, j = 0, k = 0;
-	for (i = 0; i<3; i++) {
-		for (j = 0; j<3; j++) {
-			C[i][j] = 0;
-				for (k = 0; k<3; k++) {
-		C[i][j] = A[i][k] * B[k][j];
+	for (i=1; i<=r1; i++) {
+		for(j=1; j<=c2; j++) {
+			result[i][j]=0;
+			for(k=0; k<c1; k++) {
+				result[i][j]+=A[i][k]*B[k][j];
 			}
 		}
 	}
-
-
-    // storing result in result matrix
-
-    // Displaying the result
-	printf("%d", C[i][j]);
-
-
+	
+	// Displaying the result
+	// storing result in result matrix
+	
+	printf("Result of the multiplication:\n");
+	for (i=1; i<=r1; i++) {
+		for(j=1; j<=c2; j++) {
+			printf("%d",result[i][j]);
+		}
+		printf("\n");
+	}
+	
     return 0;
 }
