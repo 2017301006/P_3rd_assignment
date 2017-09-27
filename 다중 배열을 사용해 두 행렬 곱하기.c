@@ -1,5 +1,5 @@
 // http://cswin.skuniv.ac.kr/gnuboard4/bbs/board.php?bo_table=Jung_pro_prac&wr_id=6
-// 4th Lecture Note PPT slide #18,19,20 ¼÷Á¦ (ÀÛ¾÷Áß)
+// 4th Lecture Note PPT slide #18,19,20 (ìž‘ì—…ì¤‘)
 
 #include <stdio.h>
 
